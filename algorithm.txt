@@ -1,0 +1,42 @@
+Ask user for name input via Scanner set to variable name
+Print welcome message
+
+get stats method
+        shows user currently known stats of account
+        keep track of transactions throughout program to display here
+
+menu options method
+        Gives user list of options
+
+deposit method
+        Ask user how much they want to deposit
+        While deposit is less than 0 or deposit not isDigit()
+            Error message
+            Ask user for input again
+        Balance += deposit input
+        transactionsCount++
+
+withdraw method
+        Ask user how much they want to withdraw
+        While deposit is less than 0 or withdraw not isDigit()
+            Error message
+            Ask user for input again
+        Balance -= withdraw input
+        If balance is less than 0, alert user that it is negative and will be charged 5%
+        transactionsCount++
+
+main
+        Initialize variables
+        Provide user list of options: D - deposit, W - withdraw, B - balance, E - exit
+        While input isn't E,
+            If input is B
+                Print balance
+            Otherwise If input is D
+                call deposit method
+            Otherwise If input is W
+                call withdraw method
+            Else
+                Error message to user
+                Provide user option list again
+            Provide user option list again
+        Exit message

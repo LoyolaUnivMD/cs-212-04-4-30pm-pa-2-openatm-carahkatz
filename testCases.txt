@@ -1,0 +1,406 @@
+Test Case 1:
+    What is your first and last name? Or, to exit, please type exit
+    Carah Katz
+
+    ---Welcome to the ATM, Carah Katz---
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    O
+    Enter the name of this account's owner:
+    Collin Katz
+    This account is not used by Collin Katz
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    O
+    Enter the name of this account's owner:
+    Carah Katz
+    This account is owned by Carah Katz
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Carah Katz
+    Balance: $212.90
+    Number of Transactions: 0
+    Maximum Transaction Size: 0.0
+    Minimum Transaction Size: 0.0
+    Average Transaction Size: NaN
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    D
+
+    How much money would you like to deposit?
+    50
+    Your balance has been updated.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    W
+
+    How much money would you like to withdraw?
+    25
+    Your balance has been updated.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Carah Katz
+    Balance: $237.90
+    Number of Transactions: 2
+    Maximum Transaction Size: 50.0
+    Minimum Transaction Size: 25.0
+    Average Transaction Size: 37.5
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    E
+
+    Thank you for using the ATM. Have a nice day!
+
+Test Case 2:
+    What is your first and last name? Or, to exit, please type exit
+    exit
+
+    Thank you for using the ATM. Have a nice day!
+
+Test Case 3:
+    What is your first and last name? Or, to exit, please type exit
+    Carah Katz
+
+    ---Welcome to the ATM, Carah Katz---
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Carah Katz
+    Balance: $212.90
+    Number of Transactions: 0
+    Maximum Transaction Size: 0.0
+    Minimum Transaction Size: 0.0
+    Average Transaction Size: NaN
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    W
+
+    How much money would you like to withdraw?
+    600
+    Your balance has been updated.
+    !ALERT! Your current balance is negative. You will be charged 5%.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Carah Katz
+    Balance: $-387.10
+    Number of Transactions: 1
+    Maximum Transaction Size: 600.0
+    Minimum Transaction Size: 600.0
+    Average Transaction Size: 600.0
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    E
+
+    Thank you for using the ATM. Have a nice day!
+
+Test Case 4:
+    What is your first and last name? Or, to exit, please type exit
+    Sherri Graham
+
+    ---Welcome to the ATM, Sherri Graham---
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    D
+
+    How much money would you like to deposit?
+    123456
+    Your balance has been updated.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    W
+
+    How much money would you like to withdraw?
+    7890
+    Your balance has been updated.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Sherri Graham
+    Balance: $115778.90
+    Number of Transactions: 2
+    Maximum Transaction Size: 123456.0
+    Minimum Transaction Size: 7890.0
+    Average Transaction Size: 65673.0
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    E
+
+    Thank you for using the ATM. Have a nice day!
+
+Test Case 5:
+    What is your first and last name? Or, to exit, please type exit
+    Collin
+
+    ---Welcome to the ATM, Collin---
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    D
+
+    How much money would you like to deposit?
+    0
+    Error. Invalid deposit amount. Please try again.
+    How much money would you like to deposit?
+    -50
+    Error. Invalid deposit amount. Please try again.
+    How much money would you like to deposit?
+    2
+    Your balance has been updated.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Collin
+    Balance: $214.90
+    Number of Transactions: 1
+    Maximum Transaction Size: 2.0
+    Minimum Transaction Size: 2.0
+    Average Transaction Size: 2.0
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    W
+
+    How much money would you like to withdraw?
+    -60
+    Error. Invalid withdraw amount. Please try again.
+    How much money would you like to withdraw?
+    0
+    Error. Invalid withdraw amount. Please try again.
+    How much money would you like to withdraw?
+    2
+    Your balance has been updated.
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    S
+    Account Owner: Collin
+    Balance: $212.90
+    Number of Transactions: 2
+    Maximum Transaction Size: 2.0
+    Minimum Transaction Size: 2.0
+    Average Transaction Size: 2.0
+
+    Please select from the following options:
+    --------------------------------------------------
+    O - Owner
+    	This will ask you to clarify the owner of the account
+    S - Stats
+    	This will display your account's information
+    D - Deposit
+    	This will allow you to deposit a provided amount into your balance
+    W - Withdraw
+    	This will allow you to withdraw a provided amount from your balance
+    E - Exit
+    --------------------------------------------------
+    E
+
+    Thank you for using the ATM. Have a nice day!
